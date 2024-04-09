@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "thepyromod:chests/monument_loot_tier5"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 2,
+          "name": "thepyromod:chests/monument_loot_tier4"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 4,
+          "name": "thepyromod:chests/monument_loot_tier3"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 6,
+          "name": "thepyromod:chests/monument_loot_tier2"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 8,
+          "name": "thepyromod:chests/monument_loot_tier1"
+        }
+      ]
+    }
+  ]
+}

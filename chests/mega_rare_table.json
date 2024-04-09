@@ -1,0 +1,130 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "thepyromod:chests/armor_unique"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "thepyromod:chests/unusual_drop_table",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "thepyromod:bacon_cheeseburger",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "thepyromod:diamond_longsword"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "thepyromod:weed"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "thepyromod:wand_of_the_dead"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "thepyromod:wand_of_spikes"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "thepyromod:wand_of_lightning"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "thepyromod:wand_of_fire"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "thepyromod:wand_of_ice"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "thepyromod:wand_of_teleporting"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "thepyromod:dumbbell"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "thepyromod:granite_maul"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "thepyromod:dragon_dagger"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "thepyromod:godsword"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "thepyromod:greataxe"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "thepyromod:harvester"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "thepyromod:blaster"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "thepyromod:magicite_totem"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "thepyromod:ascendant_magicite_totem"
+        }
+      ]
+    }
+  ]
+}

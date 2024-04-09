@@ -1,0 +1,55 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "thepyromod:objector"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "thepyromod:objector_blue"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "thepyromod:objector_light_blue"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "thepyromod:objector_brown"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "thepyromod:objector_orange"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "thepyromod:objector_red"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "thepyromod:objector_gray"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "thepyromod:objector_light_gray"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "thepyromod:objector_cyan"
+        }
+      ]
+    }
+  ]
+}

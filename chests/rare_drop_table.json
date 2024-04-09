@@ -1,0 +1,78 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "thepyromod:chests/mega_rare_table",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.066
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:player",
+                "effects": {
+                  "minecraft:luck": {}
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "thepyromod:chests/mega_rare_table",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 4
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "name": "thepyromod:chests/armor_combined_table"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 2,
+          "name": "thepyromod:chests/buff_rare_table"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "thepyromod:chests/objector_rare_table"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 4,
+          "name": "thepyromod:chests/resource_rare_table"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "name": "thepyromod:chests/food_rare_table"
+        }
+      ]
+    }
+  ]
+}

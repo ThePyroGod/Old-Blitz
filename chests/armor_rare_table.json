@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "thepyromod:titanium_chestplate_regeneration"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "thepyromod:titanium_chestplate_saturation"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "thepyromod:titanium_chestplate_resistance"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "thepyromod:magicite_chestplate_regeneration"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "thepyromod:magicite_chestplate_saturation"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "thepyromod:magicite_chestplate_resistance"
+        }
+      ]
+    }
+  ]
+}

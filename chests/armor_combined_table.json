@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "thepyromod:chests/armor_rare_table"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 2,
+          "name": "thepyromod:chests/armor_high_tier_table"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 7,
+          "name": "thepyromod:chests/armor_medium_tier_table"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 15,
+          "name": "thepyromod:chests/armor_low_tier_table"
+        }
+      ]
+    }
+  ]
+}

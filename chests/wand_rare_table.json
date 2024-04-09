@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "thepyromod:wand_of_the_dead"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "thepyromod:wand_of_spikes"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "thepyromod:wand_of_lightning"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "thepyromod:wand_of_fire"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "thepyromod:wand_of_ice"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "thepyromod:wand_of_teleporting"
+        }
+      ]
+    }
+  ]
+}

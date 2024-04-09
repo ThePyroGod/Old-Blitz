@@ -1,0 +1,50 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "thepyromod:buff_combat"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "thepyromod:buff_absorption"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "thepyromod:buff_health_boost"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "thepyromod:buff_heal"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "thepyromod:buff_speed"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "thepyromod:buff_luck"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "thepyromod:buff_strength"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "thepyromod:buff_resistance"
+        }
+      ]
+    }
+  ]
+}
